@@ -79,10 +79,3 @@ def unpackage(path, extract_dir=None, password=None):
                 print("2")
         else:
             print("2")
-
-unpackage(r'/home/user/PycharmProjects/unpackage_archives/tests/7z with password 123.7z', None, '123')
-unpackage(r'/home/user/PycharmProjects/unpackage_archives/tests/just 7z.7z', None, '123')
-unpackage(r'/home/user/PycharmProjects/unpackage_archives/tests/just rar.rar', None, '123')
-unpackage(r'/home/user/PycharmProjects/unpackage_archives/tests/just zip.zip', None, '123')
-unpackage(r'/home/user/PycharmProjects/unpackage_archives/tests/rar with password 123.rar', None, '123')
-unpackage(r'/home/user/PycharmProjects/unpackage_archives/tests/zip with password 123.zip', None, '123')
